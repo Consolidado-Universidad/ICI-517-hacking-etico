@@ -13,3 +13,6 @@ nmap -sV -p 80 <dirección_ip>
 ejecutar exploit 
 
 python exploit.py -H <dirección_ip> -p 80 -f <fichero>
+
+
+nmap -p 21 –script=vuln IP_objetivo
